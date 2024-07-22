@@ -30,11 +30,7 @@ checkout-automation/
 │  │          ├─ register.js
 │  │          └─ logout.js
 ├─ cypress.json
-Video Walkthrough of the Project
-Attach a very short video walkthrough of all of the features [1 - 3 minutes].
 
-Video Walkthrough of the Codebase
-Attach a very short video walkthrough of the codebase [1 - 5 minutes].
 
 Features
 Automated search for a product.
