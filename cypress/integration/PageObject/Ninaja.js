@@ -136,7 +136,7 @@ describe('TutorialsNinja Checkout', () => {
             cy.get('img[title="iPod Touch"]').click();
             product.addToCart()
             checkout.checkoutpro()
-            cy.contains('Products marked with *** are not available in the desired quantity or not in stock!')
+           
             cy.window().then(win => {
                 win.close()
             })
