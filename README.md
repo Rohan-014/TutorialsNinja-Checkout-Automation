@@ -29,3 +29,5 @@ End-to-End Testing
 - **POM (Page Object Model)**: Used for organizing code and improving maintainability.
 - **Screenshots**: Taken at crucial steps for debugging and validation purposes.
 - **Extent Reports**: For generating detailed test reports.
+
+---
