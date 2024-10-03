@@ -3,34 +3,7 @@ Introduction
 This project involves automating the checkout process on the TutorialsNinja e-commerce website using Cypress. The primary objective is to create a Cypress script that automates the process of searching for a product, adding it to the cart, and completing the checkout process. This project demonstrates the use of Cypress for end-to-end testing and ensures that the checkout functionality works seamlessly.
 
 Project Type
-Frontend Testing
-
-Deployed App
-Frontend: https://tutorialsninja.com/demo
-Backend: Not applicable
-Database: Not applicable
-
-Directory Structure
-arduino
-Copy code
-checkout-automation/
-├─ cypress/
-│  ├─ fixtures/
-│  ├─ integration/
-│  │  └─ PageObject/
-│  │      └─ Ninaja.js
-│  ├─ plugins/
-│  ├─ support/
-│  │  └─ autoproj/
-│  │      └─ TutorialsNinja/
-│  │          ├─ homePage.js
-│  │          ├─ productPage.js
-│  │          ├─ link.js
-│  │          ├─ checkout.js
-│  │          ├─ register.js
-│  │          └─ logout.js
-├─ cypress.json
-
+End TO End Testing
 
 Features
 Automated search for a product.
