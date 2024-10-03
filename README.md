@@ -1,21 +1,23 @@
-Project Title: TutorialsNinja Checkout Automation
+TutorialsNinja Checkout Automation
 Introduction
-This project involves automating the checkout process on the TutorialsNinja e-commerce website using Cypress. The primary objective is to create a Cypress script that automates the process of searching for a product, adding it to the cart, and completing the checkout process. This project demonstrates the use of Cypress for end-to-end testing and ensures that the checkout functionality works seamlessly.
+This project automates the checkout process on the TutorialsNinja e-commerce website using Cypress. It demonstrates end-to-end testing, ensuring the checkout functionality works seamlessly, from product search to completing the purchase.
 
-Project Type
-End TO End Testing
+Project Type :
+End-to-End Testing
 
-Features
-Automated search for a product.
-Add the product to the cart.
-Proceed through the checkout process.
-Register a new user.
-Logout after completing the purchase.
-Design Decisions or Assumptions
-The script assumes that the product "iphone" is available on the website.
-The script uses fixed user details for registration.
-XPath selectors are used for button clicks where necessary.
-The script assumes the user is logged out after the checkout process.
-Installation & Getting Started
-Detailed instructions on how to install, configure, and get the project running.
-
+Features :
+Automated Search for a product (e.g., "iPhone").
+Add Product to Cart and verify the addition.
+Checkout Process automation (including billing, shipping, and payment).
+User Registration and validation.
+Logout after purchase completion.
+Design Decisions and Assumptions
+Assumes the product "iPhone" is available on the website.
+Uses fixed user details for the registration process.
+XPath selectors are used for certain button clicks.
+Assumes the user is logged out automatically after completing the checkout.
+Framework and Tools Used
+Cypress: For writing end-to-end tests.
+POM (Page Object Model): Used for organizing code and improving maintainability.
+Screenshots: Taken at crucial steps for debugging and validation purposes.
+Extent Reports: For generating detailed test reports.
